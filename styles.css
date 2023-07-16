@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  padding: 20px 25px;
+  margin: 20px auto 20px auto;
+  background-color: #fff;
+  border: 1px solid #000000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_img {
+  width: auto;
+  height: 50px;
+  float: left;
+}
+.main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.input-section,
+.output-section {
+  margin-bottom: 20px;
+}
+.button-section {
+  margin: 0 auto;
+}
+
+textarea {
+  padding: 10px;
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: black; /* 设置文本颜色为黑色 */
+  resize: vertical;
+}
+
+.textarea {
+  text-align: center;
+}
+
+.btn {
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#encode-button {
+  margin: 0% 20px;
+  color: #fff;
+  background-color: #337ab7;
+}
+#decode-button {
+  margin: 0% 20px;
+  color: #fff;
+  background-color: #ff9900;
+}
+.btn_copy {
+  margin-top: 20px;
+}
+.text-primary {
+    color: #325d88!important;
+}
+.font-weight-bold {
+    font-weight: 700!important;
+}
+.table-bordered {
+    border: 1px solid #dfd7ca;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #3e3f3a;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dfd7ca;
+}
+.table td, .table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dfd7ca;
+}
+.table-secondary, .table-secondary>td, .table-secondary>th {
+    background-color: #dfdfdd;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+.prettyprint {
+    padding: 8px;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+}
+.prettyprint {
+    padding: 8px;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+}
+
+pre {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    overflow: auto;
+    -ms-overflow-style: scrollbar;
+}
+
+.breadcrumb li + li::before {
+    color: #ff9900;
+    content: "\0002f";
+}
+.breadcrumb a {
+    align-items: center;
+    color: #337ab7;
+    display: inline;
+    justify-content: center;
+    padding: 0 0.75em;
+}
+.breadcrumb li {
+    display: inline;
+}
